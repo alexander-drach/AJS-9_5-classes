@@ -22,6 +22,15 @@ class Character {
       case 'Magician':
         this.type = type;
         break;
+      case 'Daemon':
+        this.type = type;
+        break;
+      case 'Undead':
+        this.type = type;
+        break;
+      case 'Zombie':
+        this.type = type;
+        break;
       default:
         throw new Error('Типом персонажа может быть одно из следующих значений: Bowerman, Swordsman, Magician, Daemon, Undead, Zombie');
     }
