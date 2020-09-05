@@ -12,7 +12,7 @@ console.log('worked');
 
 console.log(sum([1, 2]));
 
-const c = new Character('pers', 'Bowerman');
-const b = new Bowerman('pers', 'Bowerman');
+const c = new Character('Лучник', 'Bowerman');
+const b = new Zombie('Зомби', 'Zombie');
 console.log(c);
 console.log(b);
